@@ -116,7 +116,7 @@
                 echo'<h5>"'.$fila['Nombre'].'"</h5>
                 <p>'.$fila['Descripcion'].'</p>
                 <button type="submit" class="fa fa-pencil btn btn-small btn-success" style="margin-top: -7px;" onclick="return abrirModificarP();"></button>
-
+<button type="submit" class="fa fa-trash btn btn-small btn-danger" style="margin-top: -7px;" onclick="return abrirBorrarP();"></button>
 
                   ';
 
